@@ -46,7 +46,7 @@ public class JavaScriptExecutor {
 		// Take screenshot and store as a file format
 		File src = ((TakesScreenshot) driver).getScreenshotAs(OutputType.FILE);
 		// now copy the screenshot to desired location using copyFile //method
-		FileUtils.copyFile(src, new File("/Users/naveenkhunteta/Documents/workspace/MorningSessions/src/SeleniumSessions/element.png"));
+		FileUtils.copyFile(src, new File("/Users/s.maiya/Documents/SeleniumSessions/screenprints/element.png"));
 		
 		//generate Alert
 		//generateAlert(driver, "There is an issue with Login button on Login Page");
