@@ -22,17 +22,24 @@ public class SelectCalendarbyJS {
 		driver.manage().timeouts().pageLoadTimeout(40, TimeUnit.SECONDS);
 		driver.manage().timeouts().implicitlyWait(20, TimeUnit.SECONDS);
 		
-		driver.get("http://www.durgambabooking.com/"); // enter URL
+		//driver.get("http://www.durgambabooking.com/"); // enter URL
+		//WebElement date = driver.findElement(By.xpath("//input[@id='searchbus_depart']"));
+		
+		driver.get("https://www.spicejet.com/");
 		
 		//Only if it Contains value Attribute then we can have this code else we have loop and get the Object or we have to
 		
-		Thread.sleep(3000l);
+		Thread.sleep(7000l);
 		
-		WebElement date = driver.findElement(By.xpath("//input[@id='searchbus_depart']"));
-		String dateVal = "30/12/2028";
+		WebElement date = driver.findElement(By.xpath("//input[@name='ctl00$mainContent$view_date1']/following-sibling::input[@id='ctl00_mainContent_txt_Fromdate']"));
+		String dateVal = "30-12-2028";
 		
 		selectDateByJS(driver, date, dateVal);
 		
+		driver.findElement(By.xpath("//span[@id='view_fulldate_id_1']//preceding-sibling::button[@class='ui-datepicker-trigger']")).click();
+		
+		driver.findElement(By.id("ctl00_mainContent_ddl_destinationStation1_CTXT")).click();
+		driver.findElement(By.xpath("//div[@id='divpaxinfo']")).click();
 
 	}
 	
