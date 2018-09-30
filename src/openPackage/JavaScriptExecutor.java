@@ -42,6 +42,10 @@ public class JavaScriptExecutor {
 		flash(loginBtn, driver); //highlight the element
 		
 		drawBorder(loginBtn, driver); //draw a border
+		
+		
+		
+		
 		//take screenshot:
 		// Take screenshot and store as a file format
 		File src = ((TakesScreenshot) driver).getScreenshotAs(OutputType.FILE);
@@ -77,7 +81,7 @@ public class JavaScriptExecutor {
 	
 	
 	public static void flash(WebElement element, WebDriver driver) {
-        JavascriptExecutor js = ((JavascriptExecutor) driver);
+       // JavascriptExecutor js = ((JavascriptExecutor) driver);
         String bgcolor  = element.getCssValue("backgroundColor");
         for (int i = 0; i <  10; i++) {
             changeColor("rgb(0,200,0)", element,driver);//1
