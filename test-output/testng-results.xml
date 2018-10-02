@@ -1,0 +1,169 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="4" passed="4">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="56168" started-at="2018-10-01T15:41:44Z" finished-at="2018-10-01T15:42:40Z">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="56168" started-at="2018-10-01T15:41:44Z" finished-at="2018-10-01T15:42:40Z">
+      <class name="aut.com.viaExcel.datadrivenTesting.Dataprovider_Excel">
+        <test-method status="PASS" signature="setup()[pri:0, instance:aut.com.viaExcel.datadrivenTesting.Dataprovider_Excel@687080dc]" name="setup" is-config="true" duration-ms="10484" started-at="2018-10-01T15:41:45Z" finished-at="2018-10-01T15:41:55Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="freecrmRegpage(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:aut.com.viaExcel.datadrivenTesting.Dataprovider_Excel@687080dc]" name="freecrmRegpage" duration-ms="4374" started-at="2018-10-01T15:41:55Z" data-provider="getData" finished-at="2018-10-01T15:41:59Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Sandesh]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[matters]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[sandesh.matters@gmail.com]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[smatter]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[sandesh1]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- freecrmRegpage -->
+        <test-method status="PASS" signature="teardown()[pri:0, instance:aut.com.viaExcel.datadrivenTesting.Dataprovider_Excel@687080dc]" name="teardown" is-config="true" duration-ms="743" started-at="2018-10-01T15:41:59Z" finished-at="2018-10-01T15:42:00Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+        <test-method status="PASS" signature="setup()[pri:0, instance:aut.com.viaExcel.datadrivenTesting.Dataprovider_Excel@687080dc]" name="setup" is-config="true" duration-ms="8071" started-at="2018-10-01T15:42:00Z" finished-at="2018-10-01T15:42:08Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="freecrmRegpage(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:aut.com.viaExcel.datadrivenTesting.Dataprovider_Excel@687080dc]" name="freecrmRegpage" duration-ms="4194" started-at="2018-10-01T15:42:08Z" data-provider="getData" finished-at="2018-10-01T15:42:12Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Suhas]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[matters]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Suhas.matters@gmail.com]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[sumatters]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[suhas2]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- freecrmRegpage -->
+        <test-method status="PASS" signature="teardown()[pri:0, instance:aut.com.viaExcel.datadrivenTesting.Dataprovider_Excel@687080dc]" name="teardown" is-config="true" duration-ms="711" started-at="2018-10-01T15:42:12Z" finished-at="2018-10-01T15:42:13Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+        <test-method status="PASS" signature="setup()[pri:0, instance:aut.com.viaExcel.datadrivenTesting.Dataprovider_Excel@687080dc]" name="setup" is-config="true" duration-ms="8488" started-at="2018-10-01T15:42:13Z" finished-at="2018-10-01T15:42:22Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="freecrmRegpage(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:aut.com.viaExcel.datadrivenTesting.Dataprovider_Excel@687080dc]" name="freecrmRegpage" duration-ms="4207" started-at="2018-10-01T15:42:22Z" data-provider="getData" finished-at="2018-10-01T15:42:26Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Gopi]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[matters]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Gopi.matters@gmail.com]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[gmatters]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[gopi01]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- freecrmRegpage -->
+        <test-method status="PASS" signature="teardown()[pri:0, instance:aut.com.viaExcel.datadrivenTesting.Dataprovider_Excel@687080dc]" name="teardown" is-config="true" duration-ms="727" started-at="2018-10-01T15:42:26Z" finished-at="2018-10-01T15:42:27Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+        <test-method status="PASS" signature="setup()[pri:0, instance:aut.com.viaExcel.datadrivenTesting.Dataprovider_Excel@687080dc]" name="setup" is-config="true" duration-ms="9219" started-at="2018-10-01T15:42:27Z" finished-at="2018-10-01T15:42:36Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="freecrmRegpage(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:aut.com.viaExcel.datadrivenTesting.Dataprovider_Excel@687080dc]" name="freecrmRegpage" duration-ms="3403" started-at="2018-10-01T15:42:36Z" data-provider="getData" finished-at="2018-10-01T15:42:39Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[1.0]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[2.0]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[2.0]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[2.0]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[2.0]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- freecrmRegpage -->
+        <test-method status="PASS" signature="teardown()[pri:0, instance:aut.com.viaExcel.datadrivenTesting.Dataprovider_Excel@687080dc]" name="teardown" is-config="true" duration-ms="712" started-at="2018-10-01T15:42:39Z" finished-at="2018-10-01T15:42:40Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+      </class> <!-- aut.com.viaExcel.datadrivenTesting.Dataprovider_Excel -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
