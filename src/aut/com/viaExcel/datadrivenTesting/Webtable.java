@@ -30,6 +30,14 @@ public class Webtable {
 		Xls_Reader reader = new Xls_Reader(
 				(System.getProperty("user.dir") + "/src/dataprovider.xlsx"));
 
+		boolean sheetname = !(reader.isSheetExist("newSheet"));
+		if (sheetname) {
+			reader.addSheet("newSheet");
+			reader.addColumn("newSheet", "Company");
+			reader.addColumn("newSheet", "Contact");
+			reader.addColumn("newSheet", "Country");
+		}
+
 		int rowcount = driver.findElements(
 				By.xpath("//table[@id='customers']//tr")).size();
 
@@ -43,19 +51,23 @@ public class Webtable {
 
 				if (j == 1) {
 					flag = "Company";
+
 				} else if (j == 2) {
-					flag = "contact";
+					flag = "Contact";
+
 				} else
-					flag = "country";
+					flag = "Country";
+
 				String newdata = driver.findElement(
 						By.xpath(beforecompany + i + aftercompany + j + "]"))
 						.getText();
 
-				reader.setCellData("WebTable", flag, i, newdata);
+				reader.setCellData("newSheet", flag, i, newdata);
 
 			}
 
-		}driver.quit();
+		}
+		driver.quit();
 	}
 
 }
